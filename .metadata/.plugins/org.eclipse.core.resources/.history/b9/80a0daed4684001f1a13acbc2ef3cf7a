@@ -1,0 +1,24 @@
+
+public class ComputadorPedrinho {
+
+	public static void main(String[] args) {
+		
+		System.out.println("MSN");
+		MSNMensagem msn = new MSNMensagem();
+	    msn.enviarMensagem();
+		msn.receberMensagem();
+		
+		System.out.println("Facebook");
+		FacebookMensegem fcb = new FacebookMensegem();
+		fcb.enviarMensagem();
+		fcb.receberMensagem();
+		
+		System.out.println("Telegram");
+		TelegamMensegem tlg = new TelegamMensegem();
+		tlg.enviarMensagem();
+		tlg.receberMensagem();
+		
+		
+	}
+
+}

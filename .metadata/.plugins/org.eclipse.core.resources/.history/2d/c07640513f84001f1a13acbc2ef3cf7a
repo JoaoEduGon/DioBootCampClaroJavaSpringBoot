@@ -1,0 +1,11 @@
+
+public class ServicoDeMensagemInstantanea {
+	
+	public void enviarMensagem() {
+		validarConectadoInternet();
+		System.out.println("Enviar mensagem Telegram");
+		salvarHistoricoMensagem();
+		}
+	}
+
+

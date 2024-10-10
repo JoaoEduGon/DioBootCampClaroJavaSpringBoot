@@ -1,0 +1,35 @@
+package SmartPhone;
+
+public class Iphone {
+	
+	public static void main(String[] args) {
+	
+		
+		Iphone iphone = new Iphone();
+		
+		int ligado = 1;
+		int Desligar = 2;
+		
+		
+		if (ligado == 1) {
+			iphone.Ligar();
+			
+			
+		}
+			
+		
+		
+	}   
+
+	public void Ligar() {
+		System.out.println("SmartPhone Ligado");
+	}
+	
+	public void Desligar() {
+		System.out.println("SmartPhone desligado");
+	}
+	
+	public void Desbloquar() {
+		System.out.println("SmartPhone desbloueado");
+	}
+}

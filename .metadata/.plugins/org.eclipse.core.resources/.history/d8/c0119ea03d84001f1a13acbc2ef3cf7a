@@ -1,0 +1,15 @@
+
+public class ComputadorPedrinho {
+
+	public static void main(String[] args) {
+		
+		MSNMensagem msn = new MSNMensagem();
+		msn.enviarMensagem();
+		msn.receberMensagem();
+		
+		FacebookMensegem fcb = new FacebookMensegem();
+		msn.enviarMensagem();
+		msn.receberMensagem();
+	}
+
+}

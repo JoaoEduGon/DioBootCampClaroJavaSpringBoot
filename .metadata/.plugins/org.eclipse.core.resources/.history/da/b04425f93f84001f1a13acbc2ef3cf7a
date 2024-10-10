@@ -1,0 +1,8 @@
+
+
+public class MSNMensagem extends ServicoDeMensagemInstantanea{	
+}
+
+
+public class FacebookMensegem extends ServicoDeMensagemInstantanea{		
+	}
